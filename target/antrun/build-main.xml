@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="prepare phase"/>
+  <unzip src="database/derby-server/posdb.zip" dest="/home/sam/NetBeansProjects/FloPos/floreantpos-code/target"/>
+</target>
+</project>
